@@ -1,0 +1,280 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zishan Sheikh- Web Developer</title>
+    <meta name="title" content="Zishan Sheikh">
+    <meta name="description" content="check out all of Zishan Sheikh's work, portfolio, and entrepreneurial journey.">
+    <meta name="keywords" content="entrepreneur, website developer, trend stitchers owner">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Zishan Sheikh">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <style>
+        /* common */
+        .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 100,
+        'GRAD' 0,
+        'opsz' 40
+        }
+        .chabao {
+            background: #6a1b9a !important;
+        }
+        .trendstitchers {
+            background: #ffa500 !important;
+        }
+        .gitdebug {
+            background: #ff00cc !important;
+        } 
+        .linkedin {
+            background: #0a66c2 !important;
+        }
+        .github {
+            background: #238636 !important;
+        }
+        /* body */
+        body{
+            background-color: #000;
+            color: #fff;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        .container {
+            width: 100% !important;
+            height: 100vh;
+        }
+        .main-section {
+            margin-top: 80px;
+            position: relative;
+        }
+        .main-section h2 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .links-main {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            flex-wrap: wrap;
+            height: 320px;
+            padding: 5px 0;
+            width: 98%;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .links-main a {
+            color: #fff;
+            text-decoration: none;
+            border: 1px solid #fff;
+            padding: 10px 25px;
+            cursor: pointer;
+            text-align: center;
+
+        }
+        .main-animated-icons {
+            position: relative;
+        }
+        .hi-icon {
+            position: absolute;
+            left: -109px;
+            width: 100px;
+            top: -406px;
+        }
+        .wink-icon {
+            width: 100px;
+            position: absolute;
+            bottom: -280px;
+            right: 20px;
+        }
+        .bye-icon {
+            width: 50px;
+            position: absolute;
+            display: none;
+        }
+        /* animations */
+        .upsale-button {
+            position: relative;
+            z-index: 0;
+            height: 40px;
+            overflow: hidden;
+            border: none !important;
+            padding: 0 !important;
+            color: #656565;
+            background: white;
+            width: 180px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 400;
+            box-shadow: 0 4px 50px 0 rgb(0 0 0 / 7%);
+            transition: .2s all linear;
+            text-decoration: initial;
+        }
+        .upsale-button span{
+            position: relative;
+            z-index: 1;
+            height: calc( 100% - 4px );
+            width: calc( 100% - 4px );
+            top: 2px;
+            left: 2px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            color: white;
+            background: #000;
+        }
+
+        .upsale-button:after{
+        content: "";
+            position: absolute;
+            z-index: -2;
+            left: -50%;
+            top: -50%;
+            width: 200%;
+            height: 200%;
+            background-color: transparent;
+            background-repeat: no-repeat;
+            background-size: 50% 50%, 50% 50%;
+            background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+            background-image: linear-gradient(90deg, rgba(255,255,255,0)    0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+            -webkit-animation: rotate 2s linear infinite;
+            animation: rotate 2s linear infinite;
+        }
+        @-webkit-keyframes rotate {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes rotate {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .slide-right {
+            -webkit-animation: slide-right 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
+                    animation: slide-right 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
+        }
+        /**
+        * ----------------------------------------
+        * animation slide-right
+        * ----------------------------------------
+        */
+        @-webkit-keyframes slide-right {
+        0% {
+            -webkit-transform: translateX(0);
+                    transform: translateX(0);
+        }
+        100% {
+            -webkit-transform: translateX(100px);
+                    transform: translateX(100px);
+        }
+        }
+        @keyframes slide-right {
+        0% {
+            -webkit-transform: translateX(0);
+                    transform: translateX(0);
+        }
+        100% {
+            -webkit-transform: translateX(100px);
+                    transform: translateX(100px);
+        }
+        }
+        .slide-top {
+            -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
+                    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
+        }
+        /**
+        * ----------------------------------------
+        * animation slide-top
+        * ----------------------------------------
+        */
+        @-webkit-keyframes slide-top {
+        0% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+        }
+        100% {
+            -webkit-transform: translateY(-100px);
+                    transform: translateY(-100px);
+        }
+        }
+        @keyframes slide-top {
+        0% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+        }
+        100% {
+            -webkit-transform: translateY(-100px);
+                    transform: translateY(-100px);
+        }
+        }
+
+        .text-focus-in {
+            -webkit-animation: text-focus-in 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.4s both;
+                    animation: text-focus-in 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.4s both;
+        }
+        /**
+        * ----------------------------------------
+        * animation text-focus-in
+        * ----------------------------------------
+        */
+        @-webkit-keyframes text-focus-in {
+        0% {
+            -webkit-filter: blur(12px);
+                    filter: blur(12px);
+            opacity: 0;
+        }
+        100% {
+            -webkit-filter: blur(0px);
+                    filter: blur(0px);
+            opacity: 1;
+        }
+        }
+        @keyframes text-focus-in {
+        0% {
+            -webkit-filter: blur(12px);
+                    filter: blur(12px);
+            opacity: 0;
+        }
+        100% {
+            -webkit-filter: blur(0px);
+                    filter: blur(0px);
+            opacity: 1;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button style="color:#e9e9e9; background-color: #000; border:none; font-size: 12px; position: fixed; top: 8px; left: 30px;" onclick="history.back()"><span class="material-symbols-outlined">close</span></button>
+        <a style="color:#e9e9e9; font-size: 12px; position: fixed; top: 8px; right: 30px;" href="mailto:zishansheikh@gitdebug.xyz">contact me</a>
+        <section class="main-section">
+            <h2 class="text-focus-in">Zishan Sheikh</h2>
+            <div class="links-main">
+                <a class="upsale-button trendstitchers" href="https://trendstitchers.com" target="_blank"><span>my clothing brand</span></a>
+                <a class="upsale-button gitdebug" href="https://gitdebug.xyz" target="_blank"><span>my portfolio</span></a>
+                <a class="upsale-button chabao" href="https://chabaokitchen.com" target="_blank"><span>Chabao- Cloud kitchen</span></a>
+                <a class="upsale-button linkedin" href="https://linkedin.com" target="_blank"><span>linkedin</span></a>
+                <a class="upsale-button github" href="https://github.com" target="_blank"><span>github</span></a>
+            </div>
+            <div class="main-animated-icons">
+                <img class="hi-icon slide-right" src="hi_zishan.svg">
+                <img class="wink-icon slide-top" src="wink_zishan.svg">
+                <img class="bye-icon" src="namaste_by_zishan.svg">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
