@@ -39,11 +39,11 @@ body {
 .brand_logo {
     width: 100px;
     position: absolute;
-    top: -80px;
-    left: 122px;
+    top: -92px;
+    left: 135px;
 }
 .main-section {
-    margin-top: 100px;
+    margin-top: 120px;
     position: relative;
 }
 .container {
@@ -235,4 +235,14 @@ a.neu-button:hover {
     --color-inset-start: #3c82aa;
     --color-inset-stop: #6ff1ff;	
     color: #001f3f;		
+}
+/* Media query */
+@media (min-width: 1024px) {
+    .brand_logo {
+        left: 40%;
+    }
+    .container {
+        width: 40% !important;
+        margin: auto;
+    }
 }
