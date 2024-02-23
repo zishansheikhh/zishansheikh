@@ -47,7 +47,7 @@ img.brand_logo {
     filter: invert(1);
 }
 .main-section {
-    margin-top: 120px;
+    margin-top: 10rem;
     position: relative;
 }
 .container {
@@ -66,9 +66,27 @@ img.brand_logo {
     text-transform: capitalize;
 }
 .links-main {
-    height: 400px;
+    height: auto;
     width: 80%;
     margin: auto;
+}
+
+.about-me {
+    max-width: 800px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the content horizontally */
+}
+.about-me h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+}
+.about-me p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 10px;
 }
 .social-links {
     display: inline-flex;
