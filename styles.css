@@ -1,153 +1,156 @@
 body {
-    /* background-color: #55B9F3; */
-    background-color: #202020;
-    font-family: 'Ubuntu', sans-serif;
+  /* background-color: #55B9F3; */
+  background-color: #202020;
+  font-family: "Ubuntu", sans-serif;
 }
 /* Material Symbols */
 .material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 100,
-    'GRAD' 0,
-    'opsz' 40
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 40;
 }
 /* Theme Colors */
 .chabao {
-    background: #6a1b9a !important;
+  background: #6a1b9a !important;
 }
 .trendstitchers {
-    background: #ffa500 !important;
+  background: #ffa500 !important;
 }
 .gitdebug {
-    background: #ff00cc !important;
-} 
+  background: #ff00cc !important;
+}
 .linkedin {
-    background: #0a66c2 !important;
+  background: #0a66c2 !important;
 }
 .github {
-    background: #238636 !important;
+  background: #238636 !important;
 }
 .instagram {
-    background: #bc2a8d !important;
+  background: #bc2a8d !important;
 }
 .twitter {
-    background: #1da1f2 !important;
+  background: #1da1f2 !important;
 }
 .white {
-    background: #fff;
+  background: #fff;
 }
 /* Body */
 .brand_logo {
-    width: 100px;
-    position: absolute;
-    top: -92px;
-    left: 135px;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #7c7c7c;
+  border-radius: 50%;
+  background-image: url("zishansheikhh.jpeg");
+  background-size: cover;
 }
-img.brand_logo {
-    filter: invert(1);
+.logo-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
 }
 .main-section {
-    margin-top: 10rem;
-    position: relative;
+  margin-top: 10rem;
+  position: relative;
 }
 .container {
-    width: 100% !important;
-    height: 82vh !important;
-    position: relative;
+  width: 100% !important;
+  height: 82vh !important;
+  position: relative;
 }
 .main-section h2 {
-    text-align: center;
-    text-transform: uppercase;
-    color: #ac61b9;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ac61b9;
 }
 .main-section h4 {
-    text-align: center;
-    color: #fdd870;
-    text-transform: capitalize;
+  text-align: center;
+  color: #fdd870;
+  text-transform: capitalize;
 }
 .links-main {
-    height: auto;
-    width: 80%;
-    margin: auto;
+  height: auto;
+  width: 80%;
+  margin: auto;
 }
 
 .about-me {
-    max-width: 800px; /* Adjust width as needed */
-    margin: 0 auto; /* Center the content horizontally */
+  max-width: 800px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the content horizontally */
 }
 .about-me h3 {
-    font-size: 22px;
-    font-weight: 400;
-    margin: 20px auto;
-    text-align: center;
-    color: white;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 20px auto;
+  text-align: center;
+  color: white;
 }
 .about-me p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: white;
-    margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+  margin-bottom: 10px;
 }
 .social-links {
-    display: inline-flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: auto;
-    width: 100%;
-    flex-wrap: wrap;
+  display: inline-flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: auto;
+  width: 100%;
+  flex-wrap: wrap;
 }
 .custom-width {
-    width: 20px !important;
+  width: 20px !important;
 }
 .hi-icon {
-    position: absolute;
-    left: -109px;
-    width: 100px;
-    top: -100px
+  position: absolute;
+  left: -109px;
+  width: 100px;
+  top: -100px;
 }
 .wink-icon {
-    width: 100px;
-    position: absolute;
-    bottom: -200px;
-    right: 20px;
+  width: 100px;
+  position: absolute;
+  bottom: -200px;
+  right: 20px;
 }
 .bye-icon {
-    width: 50px;
-    position: absolute;
-    display: none;
+  width: 50px;
+  position: absolute;
+  display: none;
 }
 .slide-right {
-    -webkit-animation: slide-right 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
-            animation: slide-right 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
+  -webkit-animation: slide-right 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.8s
+    both;
+  animation: slide-right 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.8s both;
 }
 
 /* animation slide-right */
 
 @-webkit-keyframes slide-right {
-0% {
+  0% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
-}
-100% {
+    transform: translateX(0);
+  }
+  100% {
     -webkit-transform: translateX(100px);
-            transform: translateX(100px);
-}
+    transform: translateX(100px);
+  }
 }
 @keyframes slide-right {
-0% {
+  0% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
-}
-100% {
+    transform: translateX(0);
+  }
+  100% {
     -webkit-transform: translateX(100px);
-            transform: translateX(100px);
-}
+    transform: translateX(100px);
+  }
 }
 .slide-top {
-    -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
-            animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.8s
+    both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.8s both;
 }
 /**
 * ----------------------------------------
@@ -155,29 +158,30 @@ img.brand_logo {
 * ----------------------------------------
 */
 @-webkit-keyframes slide-top {
-0% {
+  0% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
-}
-100% {
+    transform: translateY(0);
+  }
+  100% {
     -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
-}
+    transform: translateY(-100px);
+  }
 }
 @keyframes slide-top {
-0% {
+  0% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
-}
-100% {
+    transform: translateY(0);
+  }
+  100% {
     -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
-}
+    transform: translateY(-100px);
+  }
 }
 
 .text-focus-in {
-    -webkit-animation: text-focus-in 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.4s both;
-            animation: text-focus-in 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.4s both;
+  -webkit-animation: text-focus-in 1.2s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+    0.4s both;
+  animation: text-focus-in 1.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.4s both;
 }
 /**
 * ----------------------------------------
@@ -185,89 +189,86 @@ img.brand_logo {
 * ----------------------------------------
 */
 @-webkit-keyframes text-focus-in {
-0% {
+  0% {
     -webkit-filter: blur(12px);
-            filter: blur(12px);
+    filter: blur(12px);
     opacity: 0;
-}
-100% {
+  }
+  100% {
     -webkit-filter: blur(0px);
-            filter: blur(0px);
+    filter: blur(0px);
     opacity: 1;
-}
+  }
 }
 @keyframes text-focus-in {
-0% {
+  0% {
     -webkit-filter: blur(12px);
-            filter: blur(12px);
+    filter: blur(12px);
     opacity: 0;
-    }
-100% {
+  }
+  100% {
     -webkit-filter: blur(0px);
-            filter: blur(0px);
+    filter: blur(0px);
     opacity: 1;
-    }
+  }
 }
 
 /* Version 2.0 Button CSS */
 a.neu-button {
-    --color-gradient-start: #1d1d1d;
-    --color-gradient-stop: #222222;	
+  --color-gradient-start: #1d1d1d;
+  --color-gradient-stop: #222222;
 
-    --color-outset-start: #161616;
-    --color-outset-stop: #252525;		
-    
-    --color-inset-start: rgba(0,0,0,0);
-    --color-inset-stop: rgba(0,0,0,0);	
+  --color-outset-start: #161616;
+  --color-outset-stop: #252525;
 
-    display: block;
-    font-size: 1.2rem;	
-    color: #AF43BE;
-    text-decoration: none;
-    appearance: none;
-    user-select: none;
-    cursor: pointer; 
-    text-align: center;
-    border: 0;
-    outline: 0;
-    padding: .5em 1em;
-    border-radius: 1.3em;
-    margin-bottom: 35px;
-    /* background: linear-gradient(145deg, var(--color-gradient-start), var(--color-gradient-stop));
+  --color-inset-start: rgba(0, 0, 0, 0);
+  --color-inset-stop: rgba(0, 0, 0, 0);
+
+  display: block;
+  font-size: 1.2rem;
+  color: #af43be;
+  text-decoration: none;
+  appearance: none;
+  user-select: none;
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  padding: 0.5em 1em;
+  border-radius: 1.3em;
+  margin-bottom: 35px;
+  /* background: linear-gradient(145deg, var(--color-gradient-start), var(--color-gradient-stop));
     box-shadow:  
         .4em .4em .8em  var(--color-outset-start), 
         -.4em -.4em .8em var(--color-outset-stop),
         inset .2em .2em .4em var(--color-inset-start), 
         inset -.2em -.2em .4em var(--color-inset-stop)		
     ; */
-    background: linear-gradient(145deg, #1d1d1d, #222222);
-    box-shadow:  12px 12px 25px #1a1a1a,
-             -12px -12px 25px #262626;		
-    transition: 
-        --color-gradient-stop .4s,
-        --color-gradient-start .4s,
-        --color-outset-start .8s,
-        --color-outset-stop .8s,
-        --color-inset-start .8s,
-        --color-inset-stop .8s,
-        color 1s;
+  background: linear-gradient(145deg, #1d1d1d, #222222);
+  box-shadow: 12px 12px 25px #1a1a1a, -12px -12px 25px #262626;
+  transition: --color-gradient-stop 0.4s, --color-gradient-start 0.4s,
+    --color-outset-start 0.8s, --color-outset-stop 0.8s,
+    --color-inset-start 0.8s, --color-inset-stop 0.8s, color 1s;
 }
 a.neu-button:hover {
-    --color-gradient-start: #1d1d1d;
-    --color-gradient-stop: #222222;	
-    --color-outset-start: rgba(0,0,0,0);
-    --color-outset-stop: rgba(0,0,0,0);	
-    --color-inset-start: #161616;
-    --color-inset-stop: #222222;	
-    color: #001f3f;		
+  --color-gradient-start: #1d1d1d;
+  --color-gradient-stop: #222222;
+  --color-outset-start: rgba(0, 0, 0, 0);
+  --color-outset-stop: rgba(0, 0, 0, 0);
+  --color-inset-start: #161616;
+  --color-inset-stop: #222222;
+  color: #001f3f;
+}
+.neu-button svg {
+  color: #af43be !important;
 }
 /* Media query */
 @media (min-width: 1024px) {
-    .brand_logo {
-        left: 40%;
-    }
-    .container {
-        width: 40% !important;
-        margin: auto;
-    }
+  .brand_logo {
+    left: 40%;
+  }
+  .container {
+    width: 40% !important;
+    margin: auto;
+  }
 }
