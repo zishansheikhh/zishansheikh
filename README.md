@@ -113,8 +113,12 @@ Currently, I am the founder of Trend Stitchers, a startup focused on providing c
 
 
 ## Recent Blog Posts  
-<!-- BLOG-POST-LIST:START -->  
-If things goes well, this section should automatically be replaced by a list of your blog posts after you commit your readme file. 
+<!-- BLOG-POST-LIST:START -->
+- [How One Company Could Own the Future of the Internet.](https://medium.com/@zishansheikh35/how-one-company-could-own-the-future-of-the-internet-9701d4621a1c?source=rss-305ce010404------2)
+- [How your devices are constantly collecting your data.](https://medium.com/@zishansheikh35/how-your-devices-are-constantly-collecting-your-data-793d5b2a66ef?source=rss-305ce010404------2)
+- [Workplace surveillance and employee tracking software.](https://medium.com/@zishansheikh35/workplace-surveillance-and-employee-tracking-software-b0720db3f9bd?source=rss-305ce010404------2)
+- [Beneath every tap lies a Struggle !!](https://medium.com/@zishansheikh35/beneath-every-tap-lies-a-struggle-ae24a6040d01?source=rss-305ce010404------2)
+- [Web 3, The Revolution towards a New Internet.](https://medium.com/@zishansheikh35/web-3-the-revolution-towards-a-new-internet-1cacf3f27e31?source=rss-305ce010404------2)
 <!-- BLOG-POST-LIST:END -->  
 
 <br/>  
